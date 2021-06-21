@@ -6,12 +6,12 @@
 
 This repository serves as a demonstration of a variety of functionalities available using tone.js
 
-The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds: bassSynth, cymbalSynth, casio
+The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds: ```js bassSynth, cymbalSynth, casio;```
 
 ## This demo covers the following topics 🧑🏻‍🏫
 
 ```js
-Import * as Tone
+import * as Tone from 'tone';
 ```
 
 - Sounds can only be initialized by user action such as clicking a 'Play' button
