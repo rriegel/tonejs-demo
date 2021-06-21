@@ -1,14 +1,14 @@
-# tone.js
+# tone.js demo 🎵🎹🎧
 
 tone.js is a JavaScript library that utilizes the Web Audio API to allow musical arrangement and creation in the browser
 
-## Current Status of the Repo
+## Current Status of the Repo 🤔
 
 This repository serves was used to demonstrate a variety of functionalities available using tone.js
 
 The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds
 
-## The code covers the following topics:
+## This demo covers the following topics 🧑🏻‍🏫
 
 - Importing * as Tone
 
