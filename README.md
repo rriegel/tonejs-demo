@@ -45,21 +45,24 @@ bassSynth.triggerAttackRelease('F#3', '16n', now + 1);
 ```js
 Tone.Transport.start();
 ```
+8. Using Tone.Transport.position to view measure:beat:step time increments
+```js
+let currentBeat = Tone.Transport.position.split(':');
+```
 
-8. Stopping tone.js's event timing
+9. Stopping tone.js's event timing
 ```js
 Tone.Transport.cancel();
 Tone.Transport.stop();
-Tone.Transport.position; // to view measure:beat:step time
 ```
 
-9. Creating an event loop
+10. Creating an event loop
 ```js
 let loopBeat = new Tone.Loop(song, '16n');
 loopBeat.start(0); // to begin looping sequence
 ```
 
-10. Using modulo to loop counter in step increments
+11. Using modulo to loop counter in step increments
 ```js
 counter = ( counter + 1 ) % 16;
 ```
