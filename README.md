@@ -10,7 +10,7 @@ The repo in its current state holds separated code blocks that incrementally add
 
 ## This demo covers the following topics 🧑🏻‍🏫
 
-- ```js
+```js
 Import * as Tone
 ```
 
