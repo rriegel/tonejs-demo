@@ -1,4 +1,4 @@
-### tone.js
+# tone.js
 
 - tone.js is a JavaScript library that utilizes the Web Audio API to allow musical arrangement and creation in the browser
 
