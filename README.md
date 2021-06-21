@@ -2,43 +2,64 @@
 
 [![](https://img.shields.io/badge/tone.js-F734D7?style=for-the-badge)](https://tonejs.github.io/) is a JavaScript library that utilizes the [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) to allow musical arrangement and synthesis in the browser
 
+---
+
 ## Current Status of the Repo 🤔
 
 This repository serves as a demonstration of a variety of functionalities available using tone.js
 
-The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds:
+The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds
 
-- 
-```js
-bassSynth, cymbalSynth, casio;
-```
+---
 
 ## This demo covers the following topics 🧑🏻‍🏫
 
+1. Importing the tone.js library
 ```js
 import * as Tone from 'tone';
 ```
 
-- Sounds can only be initialized by user action such as clicking a 'Play' button
+2. Sounds can only be initialized by user action such as clicking a 'Play' button
 
-- Initializing instrument variables
+3. Initializing instrument variables
+```js
+let bassSynth, cymbalSynth, casio;
+```
 
-- Tone.MembraneSynth()
+4. Using the Membrane Synth
+```js
+const bassSynth = new Tone.MembraneSynth().toDestination();
+```
 
-- Tone.MetalSynth()
+5. Using the Metal Synth
+```js
+const cymbalSynth = new Tone.MetalSynth().toDestination();
+```
 
-- .triggerAttackRelease() to synthesize sound
+6. Triggering sound events
+```js
+bassSynth.triggerAttackRelease('F#3', '16n', now + 1);
+```
 
-- Tone.Transport.start()
+7. Starting tone.js's event timing
+```js
+Tone.Transport.start();
+```
 
-- Tone.Transport.cancel()
+8. Stopping tone.js's event timing
+```js
+Tone.Transport.cancel();
+Tone.Transport.stop();
+Tone.Transport.position; // to view measure:beat:step time
+```
 
-- Tone.Transport.stop()
+9. Creating an event loop
+```js
+let loopBeat = new Tone.Loop(song, '16n');
+loopBeat.start(0); // to begin looping sequence
+```
 
-- Tone.Loop() to loop through an incrementing sequence
-
-- Tone.Loop.start(startValue) to begin looping sequence
-
-- Tone.Transport.position to view measure:beat:step time
-
-- use modulo to loop counter in step increments
+10. Using modulo to loop counter in step increments
+```js
+counter = ( counter + 1 ) % 16;
+```
