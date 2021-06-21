@@ -19,7 +19,7 @@ The repo in its current state holds separated code blocks that incrementally add
 import * as Tone from 'tone';
 ```
 
-2. Sounds can only be initialized by user action such as clicking a 'Play' button
+2. Sounds can only be initialized by user action - such as clicking a 'play' button ▶️
 
 3. Initializing instrument variables
 ```js
