@@ -10,7 +10,9 @@ The repo in its current state holds separated code blocks that incrementally add
 
 ## This demo covers the following topics 🧑🏻‍🏫
 
-- ```javascript Importing * as Tone```
+- ```js
+Import * as Tone
+```
 
 - Sounds can only be initialized by user action such as clicking a 'Play' button
 
