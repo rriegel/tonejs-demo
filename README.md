@@ -66,3 +66,19 @@ loopBeat.start(0); // to begin looping sequence
 ```js
 counter = ( counter + 1 ) % 16;
 ```
+
+12. Using Tone.Sampler to map out notes from .mp3 files available via the tone.js API
+```js
+const casio = new Tone.Sampler({
+      urls: {
+        A1: "A1.mp3",
+        A2: "A2.mp3",
+      },
+      baseUrl: "https://tonejs.github.io/audio/casio/",
+      onload: () => {
+        this.setState({
+          isLoaded: true
+        })
+      }
+    }).toDestination();
+```
