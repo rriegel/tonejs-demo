@@ -7,6 +7,8 @@
 This repository serves as a demonstration of a variety of functionalities available using tone.js
 
 The repo in its current state holds separated code blocks that incrementally add more complexity to 3 initialized sounds:
+
+- 
 ```js
 bassSynth, cymbalSynth, casio;
 ```
