@@ -12,6 +12,30 @@ The repo in its current state holds separated code blocks that incrementally add
 
 ---
 
+## How to use:
+
+( REMINDER: this is not a client friendly product - it's for devs to edit tone.js code! )
+
+1. Clone the repo
+
+2. Open the repo on your local machine
+
+3. Run the following commands in seperate terminals:
+```
+npm run build
+```
+```
+npm start
+```
+
+4. Open the sepcified localhost port in your desired browser (localhost:3000)
+
+5. Press the 'play' button to hear the result of the tone.js code!
+
+6. Comment and uncomment different sections of code to understand how tone.js works (don't forget to refresh your browser after code edits)
+
+---
+
 ## This demo covers the following topics 🧑🏻‍🏫
 
 1. Importing the tone.js library
