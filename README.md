@@ -28,7 +28,7 @@ npm run build
 npm start
 ```
 
-4. Open the sepcified localhost port in your desired browser (localhost:3000)
+4. Open the specified localhost port in your desired browser (localhost:3000)
 
 5. Press the 'play' button to hear the result of the tone.js code!
 
