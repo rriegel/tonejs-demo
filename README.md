@@ -20,7 +20,12 @@ The repo in its current state holds separated code blocks that incrementally add
 
 2. Open the repo on your local machine
 
-3. Run the following commands in seperate terminals:
+3. Install the repo's packages
+```
+npm install
+```
+
+4. Run the following commands in seperate terminals:
 ```
 npm run build
 ```
@@ -28,11 +33,11 @@ npm run build
 npm start
 ```
 
-4. Open the specified localhost port in your desired browser (localhost:3000)
+5. Open the specified localhost port in your desired browser (localhost:3000)
 
-5. Press the 'play' button to hear the result of the tone.js code!
+6. Press the 'play' button to hear the result of the tone.js code!
 
-6. Comment and uncomment different sections of code to understand how tone.js works (don't forget to refresh your browser after code edits)
+7. Comment and uncomment different sections of code to understand how tone.js works (don't forget to refresh your browser after code edits)
 
 ---
 
